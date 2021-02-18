@@ -1,6 +1,8 @@
 package az.maqa.spring.hazelcast.model;
 
-public class BookDto {
+import java.io.Serializable;
+
+public class BookDto implements Serializable {
     private Long id;
     private String isbn;
     private String title;
